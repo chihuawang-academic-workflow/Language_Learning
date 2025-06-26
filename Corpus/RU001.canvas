@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"b288e2b7422333c5","type":"text","text":"單字.\n1. [[ручка]]\n2. [[синий|синяя]]  \n3. [[красивый|красивая]] ","x":355,"y":-400,"width":250,"height":159},
+		{"id":"a0aa0bbce3125167","type":"file","file":"Language_Learning/Vocabulary/ручка.md","x":280,"y":-960,"width":400,"height":440},
+		{"id":"ada510057fb06175","type":"file","file":"Language_Learning/Vocabulary/синий.md","x":875,"y":-550,"width":400,"height":460},
+		{"id":"5ae16a74b6a93791","type":"file","file":"Language_Learning/Vocabulary/красивый.md","x":280,"y":-60,"width":400,"height":340},
+		{"id":"68e347d73cc631ff","type":"file","file":"Language_Learning/Corpus/RU001-Ручка.md","x":-1000,"y":-490,"width":400,"height":340},
+		{"id":"68cc1e024c38ff9c","type":"file","file":"Language_Learning/Expression/EP001.md","x":-280,"y":-482,"width":250,"height":324}
+	],
+	"edges":[
+		{"id":"520bb9cd442761c4","fromNode":"b288e2b7422333c5","fromSide":"top","toNode":"a0aa0bbce3125167","toSide":"bottom"},
+		{"id":"0c0a659f9cdd572c","fromNode":"b288e2b7422333c5","fromSide":"right","toNode":"ada510057fb06175","toSide":"left"},
+		{"id":"7e6b469665af3777","fromNode":"b288e2b7422333c5","fromSide":"bottom","toNode":"5ae16a74b6a93791","toSide":"top"},
+		{"id":"fd2b8aff95407869","fromNode":"68cc1e024c38ff9c","fromSide":"right","toNode":"b288e2b7422333c5","toSide":"left"},
+		{"id":"5f10aa83daba3623","fromNode":"68e347d73cc631ff","fromSide":"right","toNode":"68cc1e024c38ff9c","toSide":"left"}
+	]
+}
