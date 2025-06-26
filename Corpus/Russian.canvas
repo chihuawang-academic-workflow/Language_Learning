@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"68e347d73cc631ff","x":-320,"y":-60,"width":400,"height":340,"type":"file","file":"Language_Learning/Corpus/RU001-Ручка.md"},
+		{"id":"b288e2b7422333c5","x":240,"y":-260,"width":250,"height":159,"type":"text","text":"單字.\n1. [[ручка]]\n2. синяя\n3. красивая"},
+		{"id":"a0aa0bbce3125167","x":165,"y":-820,"width":400,"height":440,"type":"file","file":"Language_Learning/Vocabulary/ручка.md"}
+	],
+	"edges":[
+		{"id":"1c6dc4301d8da849","fromNode":"68e347d73cc631ff","fromSide":"right","toNode":"b288e2b7422333c5","toSide":"left"},
+		{"id":"520bb9cd442761c4","fromNode":"b288e2b7422333c5","fromSide":"top","toNode":"a0aa0bbce3125167","toSide":"bottom"}
+	]
+}
